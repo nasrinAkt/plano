@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can login",
+        "description": "",
+        "id": ";verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3253930400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open demoblaze application",
+            "match": {
+              "location": "stepClass.open_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140460100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click login",
+            "match": {
+              "location": "stepClass.click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254673100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username",
+            "match": {
+              "location": "stepClass.enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149337600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter password",
+            "match": {
+              "location": "stepClass.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3058243100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on login",
+            "match": {
+              "location": "stepClass.click_on_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3253179800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify user can login",
+            "match": {
+              "location": "stepClass.verify_user_can_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@nasrin"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify user in cart page",
+        "description": "",
+        "id": ";verify-user-in-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1829841200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "open demoblaze application",
+            "match": {
+              "location": "stepClass.open_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2367882900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click cart link",
+            "match": {
+              "location": "stepClass.click_cart_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2267609700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify user in cart page",
+            "match": {
+              "location": "stepClass.verify_user_in_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@tom"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "verify scroll down",
+        "description": "",
+        "id": ";verify-scroll-down",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1835977100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "open demoblaze application",
+            "match": {
+              "location": "stepClass.open_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10544616000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click Sony xperia z5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 19
+                }
+              ],
+              "location": "stepClass.click_Sony_xperia_z(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "planoLogin.feature"
+  }
+]
